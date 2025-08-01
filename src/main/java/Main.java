@@ -57,7 +57,7 @@ public class Main {
             }
         }
         if (equal) {
-            System.out.println("\nВсе водители проехали одинаковое расстояниею");
+            System.out.println("\nВсе водители проехали одинаковое расстояние. Нет победителя.");
         } else {
             System.out.println("\nПобедитель: " + drive.getLeader());
             System.out.println("Пройденная дистанция: " + drive.getLeaderDistance() + " км");
